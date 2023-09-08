@@ -53,3 +53,10 @@ git tag v2.0
 git push -u origin main
 git push --tag
 
+
+#To see the difference between 2 models, but before push you should use else, things will be pushed
+dvc metrics diff
+ 
+ #To see the n_estimators used in different models, you should use else, things will be pushed
+ dvc params diff
+ 
