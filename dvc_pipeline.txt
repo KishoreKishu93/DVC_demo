@@ -45,5 +45,11 @@ dvc Push
 #Check files
 dvc status
 
+#Push all to git
+git add --all
+git commit -m "commit name"
+git tag v2.0
 
+git push -u origin main
+git push --tag
 
